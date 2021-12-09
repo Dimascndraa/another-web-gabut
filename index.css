@@ -127,10 +127,6 @@ a {
   border-right: 1px solid black;
 }
 
-.nama {
-  margin-top: 10rem;
-}
-
 @media (max-width: 660px) {
   #letters div {
     font-size: 38px;
