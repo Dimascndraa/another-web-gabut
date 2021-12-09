@@ -8,18 +8,22 @@ body {
   height: 100%;
   overflow: auto;
   margin: 0 0;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   background-color: #f5f5f5;
 }
 
-::-webkit-scrollbar { display: none; }
+::-webkit-scrollbar {
+  display: none;
+}
 
 p {
   font-size: 13px;
   letter-spacing: 0.05em;
 }
 
-a { text-decoration: none; }
+a {
+  text-decoration: none;
+}
 
 #wrapper {
   height: 400vh;
@@ -46,7 +50,7 @@ a { text-decoration: none; }
   font-size: 50px;
   font-weight: 900;
   text-transform: uppercase;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   transition: color 0.1s ease-in-out;
 }
 
@@ -69,7 +73,7 @@ a { text-decoration: none; }
 }
 
 .links .quickstart {
-  font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
   background-color: #080808;
   color: white;
   padding: 20px;
@@ -123,26 +127,41 @@ a { text-decoration: none; }
   border-right: 1px solid black;
 }
 
+.nama {
+  margin-top: 10rem;
+}
 
-@media (max-width:660px) {
+@media (max-width: 660px) {
   #letters div {
     font-size: 38px;
   }
 }
 
-@media (max-width:500px) {
-  #letters { top: 180px; }
+@media (max-width: 500px) {
+  #letters {
+    top: 180px;
+  }
 
-  #letters div { font-size: 20px; }
-  #letters .line { display: none; }
-  #letters .description { padding: 20px; }
+  #letters div {
+    font-size: 20px;
+  }
+  #letters .line {
+    display: none;
+  }
+  #letters .description {
+    padding: 20px;
+  }
 
-  .links { height: calc(100vh - 300px); }
+  .links {
+    height: calc(100vh - 300px);
+  }
 
   .links .quickstart {
     padding: 10px;
     font-size: 12px;
   }
 
-  .scroll-down { top: 300px; }
+  .scroll-down {
+    top: 300px;
+  }
 }
